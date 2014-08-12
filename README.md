@@ -3,6 +3,11 @@ FaceBoard
 
 提供一个可以输入表情的自定义键盘和用于显示带自定义表情消息的文本框。
 
+# 软件截图
+![github logo](/jt1.png)
+
+![github logo](/jt2.png)
+
 # 接口文档
 
 ##FaceBoard.h
