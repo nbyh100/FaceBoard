@@ -2,6 +2,7 @@ FaceBoard
 =========
 
 提供一个可以输入表情的自定义键盘和用于显示带自定义表情消息的文本框。
+在http://code4app.com/ios/FaceBoardPlus/52a9ba56cb7e841e178b69d0基础上修改，代码重构，并修复了bug。
 
 # 软件截图
 ![github logo](/jt1.png)
