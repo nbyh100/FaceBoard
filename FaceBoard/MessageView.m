@@ -13,6 +13,9 @@
 
 + (NSString *)faceNameHead;
 
+// 分析消息文本, 生成表情编码和文本组成的数组
++ (void)getMessageRange:(NSString*)message :(NSMutableArray*)array;
+
 @end
 
 @interface MessageView()
