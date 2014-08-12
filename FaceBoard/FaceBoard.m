@@ -25,6 +25,8 @@
 - (instancetype)initWithTextView:(UITextView *)faceTextView
 {
     if (self = [super initWithFrame: (CGRect){CGPointZero, (CGSize){FaceBoard.screenWidth, 216}}]) {
+        self.backgroundColor = [UIColor whiteColor];
+
         self.faceTextView = faceTextView;
         self.faceMap = [NSDictionary dictionaryWithContentsOfFile: [[NSBundle mainBundle] pathForResource: @"FaceMap" ofType: @"plist"]];
 

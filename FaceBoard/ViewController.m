@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
 
-    UITextView *tv = [[UITextView alloc] initWithFrame: CGRectMake(0, 20, 320, 200)];
+    UITextView *tv = [[UITextView alloc] initWithFrame: CGRectMake(0, 0, 320, 200)];
     tv.layer.borderWidth = 1;
     tv.layer.borderColor = [UIColor blackColor].CGColor;
     [self.view addSubview: tv];
@@ -35,8 +35,8 @@
     UIButton *send = [UIButton buttonWithType: UIButtonTypeSystem];
     [send setTitle: @"Show Bubble" forState: UIControlStateNormal];
     [self.view addSubview: send];
-    [send sizeToFit];
-    send.center = (CGPoint){CGRectGetMidX(self.view.bounds), 240};
+    send.bounds = (CGRect){CGPointZero, (CGSize){120, 30}};
+    send.center = (CGPoint){CGRectGetMidX(self.view.bounds), 220};
     [send addTarget: self action: @selector(send) forControlEvents: UIControlEventTouchUpInside];
 
     MessageView *mv = [[MessageView alloc] init];
@@ -56,7 +56,7 @@
 - (void)send
 {
     self.mv.text = self.tv.text;
-    self.mv.frame = (CGRect){(CGPoint){10, 260}, [MessageView sizeForText: self.tv.text]};
+    self.mv.frame = (CGRect){(CGPoint){10, 250}, [MessageView sizeForText: self.tv.text]};
     [self.view endEditing: YES];
 }
 
