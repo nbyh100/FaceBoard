@@ -198,6 +198,8 @@
 		84CD055E1999C35F00E17AAC /* 085@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD04B31999C35F00E17AAC /* 085@2x.png */; };
 		84CD05631999C36F00E17AAC /* FaceBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD05601999C36F00E17AAC /* FaceBoard.m */; };
 		84CD05641999C36F00E17AAC /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD05621999C36F00E17AAC /* MessageView.m */; };
+		84CD056D1999DDB100E17AAC /* jt1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD056B1999DDB100E17AAC /* jt1.png */; };
+		84CD056E1999DDB100E17AAC /* jt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD056C1999DDB100E17AAC /* jt2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -409,6 +411,8 @@
 		84CD05601999C36F00E17AAC /* FaceBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBoard.m; sourceTree = "<group>"; };
 		84CD05611999C36F00E17AAC /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
 		84CD05621999C36F00E17AAC /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		84CD056B1999DDB100E17AAC /* jt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jt1.png; sourceTree = "<group>"; };
+		84CD056C1999DDB100E17AAC /* jt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jt2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +442,7 @@
 		84CD03BA1999C31F00E17AAC = {
 			isa = PBXGroup;
 			children = (
+				84CD056A1999DD9A00E17AAC /* ScreenShot */,
 				84CD03CC1999C31F00E17AAC /* FaceBoard */,
 				84CD03EE1999C31F00E17AAC /* FaceBoardTests */,
 				84CD03C51999C31F00E17AAC /* Frameworks */,
@@ -711,6 +716,15 @@
 			name = Faces;
 			sourceTree = "<group>";
 		};
+		84CD056A1999DD9A00E17AAC /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				84CD056B1999DDB100E17AAC /* jt1.png */,
+				84CD056C1999DDB100E17AAC /* jt2.png */,
+			);
+			name = ScreenShot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -877,6 +891,7 @@
 				84CD04EE1999C35F00E17AAC /* 029@2x.png in Resources */,
 				84CD05521999C35F00E17AAC /* 079@2x.png in Resources */,
 				84CD03D11999C31F00E17AAC /* InfoPlist.strings in Resources */,
+				84CD056E1999DDB100E17AAC /* jt2.png in Resources */,
 				84CD05531999C35F00E17AAC /* 080.png in Resources */,
 				84CD04F61999C35F00E17AAC /* 033@2x.png in Resources */,
 				84CD04E51999C35F00E17AAC /* 025.png in Resources */,
@@ -937,6 +952,7 @@
 				84CD05131999C35F00E17AAC /* 048.png in Resources */,
 				84CD053B1999C35F00E17AAC /* 068.png in Resources */,
 				84CD04D01999C35F00E17AAC /* 014@2x.png in Resources */,
+				84CD056D1999DDB100E17AAC /* jt1.png in Resources */,
 				84CD04BA1999C35F00E17AAC /* 003@2x.png in Resources */,
 				84CD05191999C35F00E17AAC /* 051.png in Resources */,
 				84CD04CC1999C35F00E17AAC /* 012@2x.png in Resources */,
@@ -1117,6 +1133,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
 				INFOPLIST_FILE = "FaceBoard/FaceBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1130,6 +1147,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBoard/FaceBoard-Prefix.pch";
 				INFOPLIST_FILE = "FaceBoard/FaceBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1194,6 +1212,7 @@
 				84CD03FA1999C31F00E17AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CD03FB1999C31F00E17AAC /* Build configuration list for PBXNativeTarget "FaceBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -1202,6 +1221,7 @@
 				84CD03FD1999C31F00E17AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
